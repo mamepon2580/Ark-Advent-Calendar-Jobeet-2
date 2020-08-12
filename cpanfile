@@ -6,3 +6,5 @@ requires 'SQL::Translator';
 requires 'String::CamelCase';
 requires 'Text::MicroTemplate::Extended';
 requires 'Text::MicroTemplate::DataSection';
+requires 'DBIx::Class';
+requires 'SQL::Translator';
