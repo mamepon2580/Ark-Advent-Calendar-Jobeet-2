@@ -4,6 +4,9 @@ use strict;
 use warnings;
 use parent 'Jobeet::Schema::ResultBase';
 
+use Jobeet::Models;
+use String::CamelCase qw(decamelize);
+
 __PACKAGE__->table('jobeet_category');
 
 __PACKAGE__->add_columns(
@@ -19,6 +22,11 @@ __PACKAGE__->add_columns(
         data_type   => 'VARCHAR',
         size        => 255,
         is_nullable => 0,
+    },
+        slug => {
+        data_type   => 'VARCHAR',
+        size        => 255,
+        is_nullable => 1,
     },
 );
 
@@ -36,4 +44,36 @@ __PACKAGE__->has_many(
         cascade_delete              => 0,
     },
 );
+__PACKAGE__->add_unique_constraint(['slug']);
+
+sub get_active_jobs {
+    my $self = shift;
+    my $attr = shift || {};
+
+    $self->jobs(
+        { expires_at => { '>=', models('Schema')->now->strftime("%F %T") } },
+        {   order_by => { -desc => 'created_at' },
+            defined $attr->{rows} ? (rows => $attr->{rows}) : (),
+        }
+    );
+}
+
+sub insert {
+    my $self = shift;
+
+    $self->slug( decamelize $self->name );
+
+    $self->next::method(@_);
+}
+
+sub update {
+    my $self = shift;
+
+    if ($self->is_column_changed('name')) {
+        $self->slug( decamelize $self->name );
+    }
+
+    $self->next::method(@_);
+}
+
 1;

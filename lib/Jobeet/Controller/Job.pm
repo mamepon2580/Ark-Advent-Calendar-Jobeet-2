@@ -4,12 +4,10 @@ use Ark 'Controller';
 use Jobeet::Models;
 has '+namespace' => default => 'job';
 
-__PACKAGE__->meta->make_immutable;
-
 sub index :Path {
     my ($self, $c) = @_;
 
-    $c->stash->{jobs} = models('Schema::Job');
+    $c->stash->{categories} = models('Schema::Category')->get_with_jobs;
 }
 
 # /job/{job_token} （詳細）
@@ -36,5 +34,7 @@ sub edit :Chained('job') :PathPart :Args(0) {
 sub delete :Chained('job') :PathPart :Args(0) {
     my ($self, $c) = @_;
 }
+
+__PACKAGE__->meta->make_immutable;
 
 1;
