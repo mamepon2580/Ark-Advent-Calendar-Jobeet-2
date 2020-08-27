@@ -661,6 +661,60 @@ DISTRIBUTIONS
       strict 0
       warnings 0
       warnings::register 0
+  DateTime-Format-Builder-0.83
+    pathname: D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+    provides:
+      DateTime::Format::Builder 0.83
+      DateTime::Format::Builder::Parser 0.83
+      DateTime::Format::Builder::Parser::Dispatch 0.83
+      DateTime::Format::Builder::Parser::Quick 0.83
+      DateTime::Format::Builder::Parser::Regex 0.83
+      DateTime::Format::Builder::Parser::Strptime 0.83
+      DateTime::Format::Builder::Parser::generic 0.83
+    requirements:
+      Carp 0
+      DateTime 1.00
+      DateTime::Format::Strptime 1.04
+      ExtUtils::MakeMaker 0
+      Params::Validate 0.72
+      Scalar::Util 0
+      parent 0
+      strict 0
+      warnings 0
+  DateTime-Format-SQLite-0.11
+    pathname: C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
+    provides:
+      DateTime::Format::SQLite 0.11
+    requirements:
+      DateTime 0.1
+      DateTime::Format::Builder 0.6
+      ExtUtils::MakeMaker 0
+      perl 5.003
+  DateTime-Format-Strptime-1.77
+    pathname: D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
+    provides:
+      DateTime::Format::Strptime 1.77
+      DateTime::Format::Strptime::Types 1.77
+    requirements:
+      Carp 0
+      DateTime 1.00
+      DateTime::Locale 1.23
+      DateTime::Locale::Base 0
+      DateTime::Locale::FromData 0
+      DateTime::TimeZone 2.09
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Params::ValidationCompiler 0
+      Specio 0.33
+      Specio::Declare 0
+      Specio::Exporter 0
+      Specio::Library::Builtins 0
+      Specio::Library::String 0
+      Try::Tiny 0
+      constant 0
+      parent 0
+      strict 0
+      warnings 0
   DateTime-Locale-1.26
     pathname: D/DR/DROLSKY/DateTime-Locale-1.26.tar.gz
     provides:
@@ -1129,6 +1183,16 @@ DISTRIBUTIONS
     requirements:
       Devel::StackTrace 0
       ExtUtils::MakeMaker 0
+  Devel-Symdump-2.18
+    pathname: A/AN/ANDK/Devel-Symdump-2.18.tar.gz
+    provides:
+      Devel::Symdump 2.18
+      Devel::Symdump::Export undef
+    requirements:
+      Compress::Zlib 0
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.004
   Digest-SHA1-2.13
     pathname: G/GA/GAAS/Digest-SHA1-2.13.tar.gz
     provides:
@@ -1396,6 +1460,54 @@ DISTRIBUTIONS
       Module::Build::Tiny 0.035
       Scalar::Util 1.19
       perl 5.008001
+  Git-Repository-1.324
+    pathname: B/BO/BOOK/Git-Repository-1.324.tar.gz
+    provides:
+      Git::Repository 1.324
+      Git::Repository::Command 1.324
+      Git::Repository::Plugin 1.324
+      Test::Git 1.324
+    requirements:
+      Carp 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      Git::Version::Compare 1.001
+      IO::Handle 0
+      Scalar::Util 0
+      System::Command 1.118
+      Test::Builder 0
+      namespace::clean 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Git-Version-Compare-1.004
+    pathname: B/BO/BOOK/Git-Version-Compare-1.004.tar.gz
+    provides:
+      Git::Version::Compare 1.004
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
+      strict 0
+      warnings 0
+  GitDDL-0.03
+    pathname: T/TY/TYPESTER/GitDDL-0.03.tar.gz
+    provides:
+      GitDDL 0.03
+    requirements:
+      DBI 0
+      ExtUtils::MakeMaker 6.36
+      File::Path 2.07
+      Git::Repository 0
+      Mouse 0
+      SQL::Translator 0.11016
+      Test::Git 0
+      Test::More 0.86
   HTML-Escape-1.10
     pathname: T/TO/TOKUHIROM/HTML-Escape-1.10.tar.gz
     provides:
@@ -1590,6 +1702,19 @@ DISTRIBUTIONS
       Encode 2.10
       Exporter 5.57
       ExtUtils::MakeMaker 6.30
+  IPC-Run-20200505.0
+    pathname: T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+    provides:
+      IPC::Run 20200505.0
+      IPC::Run::Debug 20200505.0
+      IPC::Run::IO 20200505.0
+      IPC::Run::Timer 20200505.0
+      IPC::Run::Win32Helper 20200505.0
+      IPC::Run::Win32IO 20200505.0
+      IPC::Run::Win32Pump 20200505.0
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
   Import-Into-1.002005
     pathname: H/HA/HAARG/Import-Into-1.002005.tar.gz
     provides:
@@ -1704,6 +1829,21 @@ DISTRIBUTIONS
       Net::Domain 1.05
       Net::SMTP 1.03
       Test::More 0
+  Mixin-Linewise-0.108
+    pathname: R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
+    provides:
+      Mixin::Linewise 0.108
+      Mixin::Linewise::Readers 0.108
+      Mixin::Linewise::Writers 0.108
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      IO::File 0
+      PerlIO::utf8_strict 0
+      Sub::Exporter 0
+      perl 5.008001
+      strict 0
+      warnings 0
   Module-Build-0.4231
     pathname: L/LE/LEONT/Module-Build-0.4231.tar.gz
     provides:
@@ -2016,6 +2156,25 @@ DISTRIBUTIONS
       Scalar::Util 1.18
       Test::More 0.42
       perl 5.00503
+  Params-Validate-1.29
+    pathname: D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+    provides:
+      Params::Validate 1.29
+      Params::Validate::Constants 1.29
+      Params::Validate::PP 1.29
+      Params::Validate::XS 1.29
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::CBuilder 0
+      Module::Build 0.28
+      Module::Implementation 0
+      Scalar::Util 1.10
+      XSLoader 0
+      perl 5.008001
+      strict 0
+      vars 0
+      warnings 0
   Params-ValidationCompiler-0.30
     pathname: D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz
     provides:
@@ -2106,6 +2265,16 @@ DISTRIBUTIONS
       overload 0
       parent 0
       strict 0
+  PerlIO-utf8_strict-0.007
+    pathname: L/LE/LEONT/PerlIO-utf8_strict-0.007.tar.gz
+    provides:
+      PerlIO::utf8_strict 0.007
+    requirements:
+      ExtUtils::MakeMaker 0
+      XSLoader 0
+      perl 5.008
+      strict 0
+      warnings 0
   Plack-1.0047
     pathname: M/MI/MIYAGAWA/Plack-1.0047.tar.gz
     provides:
@@ -2219,6 +2388,43 @@ DISTRIBUTIONS
       Plack::Request 0
       parent 0
       perl 5.008001
+  Pod-Coverage-0.23
+    pathname: R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+    provides:
+      Pod::Coverage 0.23
+      Pod::Coverage::CountParents undef
+      Pod::Coverage::ExportOnly undef
+      Pod::Coverage::Extractor 0.23
+      Pod::Coverage::Overloader undef
+    requirements:
+      Devel::Symdump 2.01
+      ExtUtils::MakeMaker 0
+      Pod::Find 0.21
+      Pod::Parser 1.13
+      Test::More 0
+  Pod-Coverage-TrustPod-0.100005
+    pathname: R/RJ/RJBS/Pod-Coverage-TrustPod-0.100005.tar.gz
+    provides:
+      Pod::Coverage::TrustPod 0.100005
+    requirements:
+      ExtUtils::MakeMaker 0
+      Pod::Coverage::CountParents 0
+      Pod::Eventual::Simple 0
+      Pod::Find 0
+      base 0
+      strict 0
+      warnings 0
+  Pod-Eventual-0.094001
+    pathname: R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
+    provides:
+      Pod::Eventual 0.094001
+      Pod::Eventual::Simple 0.094001
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Mixin::Linewise::Readers 0.102
+      strict 0
+      warnings 0
   Role-Tiny-2.001004
     pathname: H/HA/HAARG/Role-Tiny-2.001004.tar.gz
     provides:
@@ -2468,6 +2674,19 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  Sub-Exporter-0.987
+    pathname: R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+    provides:
+      Sub::Exporter 0.987
+      Sub::Exporter::Util 0.987
+    requirements:
+      Carp 0
+      Data::OptList 0.100
+      ExtUtils::MakeMaker 6.30
+      Params::Util 0.14
+      Sub::Install 0.92
+      strict 0
+      warnings 0
   Sub-Exporter-Progressive-0.001013
     pathname: F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz
     provides:
@@ -2523,6 +2742,44 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  System-Command-1.121
+    pathname: B/BO/BOOK/System-Command-1.121.tar.gz
+    provides:
+      System::Command 1.121
+      System::Command::Reaper 1.121
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      IO::Handle 0
+      IO::Select 0
+      IPC::Run 0
+      List::Util 0
+      POSIX 0
+      Pod::Coverage::TrustPod 0
+      Scalar::Util 0
+      Symbol 0
+      Test::CPAN::Meta 0
+      Test::Pod 0
+      Test::Pod::Coverage 0
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Test-CPAN-Meta-0.25
+    pathname: B/BA/BARBIE/Test-CPAN-Meta-0.25.tar.gz
+    provides:
+      Test::CPAN::Meta 0.25
+      Test::CPAN::Meta::Version 0.25
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::File 0
+      Parse::CPAN::Meta 0.02
+      Test::Builder 0
+      Test::Builder::Tester 0
+      Test::More 0.70
   Test-Deep-1.130
     pathname: R/RJ/RJBS/Test-Deep-1.130.tar.gz
     provides:
@@ -2608,6 +2865,28 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::Builder 0
       Try::Tiny 0.07
+      strict 0
+      warnings 0
+  Test-Pod-1.52
+    pathname: E/ET/ETHER/Test-Pod-1.52.tar.gz
+    provides:
+      Test::Pod 1.52
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Find 0
+      Pod::Simple 3.05
+      Test::Builder::Tester 1.02
+      Test::More 0.62
+      perl 5.008
+  Test-Pod-Coverage-1.10
+    pathname: N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
+    provides:
+      Test::Pod::Coverage 1.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      Pod::Coverage 0
+      Test::Builder 0
+      perl 5.006
       strict 0
       warnings 0
   Test-Requires-0.11

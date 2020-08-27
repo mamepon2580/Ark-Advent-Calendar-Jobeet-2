@@ -8,3 +8,6 @@ requires 'Text::MicroTemplate::Extended';
 requires 'Text::MicroTemplate::DataSection';
 requires 'DBIx::Class';
 requires 'SQL::Translator';
+requires 'GitDDL';
+requires 'Path::Class';
+requires 'DateTime::Format::SQLite';

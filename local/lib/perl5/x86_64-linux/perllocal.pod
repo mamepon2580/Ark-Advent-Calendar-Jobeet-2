@@ -2528,3 +2528,399 @@ C<EXE_FILES: script/sqlt script/sqlt-diagram script/sqlt-diff script/sqlt-diff-o
 
 =back
 
+=head2 Thu Aug 27 01:43:24 2020: C<Module> L<Devel::Symdump|Devel::Symdump>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.18>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:24 2020: C<Module> L<Pod::Coverage|Pod::Coverage>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: bin/pod_cover>
+
+=back
+
+=head2 Thu Aug 27 01:43:26 2020: C<Module> L<PerlIO::utf8_strict|PerlIO::utf8_strict>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.007>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:27 2020: C<Module> L<Sub::Exporter|Sub::Exporter>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.987>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:27 2020: C<Module> L<Mixin::Linewise|Mixin::Linewise>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.108>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:27 2020: C<Module> L<Pod::Eventual|Pod::Eventual>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.094001>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:28 2020: C<Module> L<Pod::Coverage::TrustPod|Pod::Coverage::TrustPod>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.100005>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:34 2020: C<Module> L<Test::CPAN::Meta|Test::CPAN::Meta>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.25>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:35 2020: C<Module> L<Test::Pod|Test::Pod>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.52>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:35 2020: C<Module> L<IPC::Run|IPC::Run>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20200505.0>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:36 2020: C<Module> L<Test::Pod::Coverage|Test::Pod::Coverage>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.10>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:36 2020: C<Module> L<System::Command|System::Command>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.121>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:37 2020: C<Module> L<Git::Version::Compare|Git::Version::Compare>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:37 2020: C<Module> L<Git::Repository|Git::Repository>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.324>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:38 2020: C<Module> L<GitDDL|GitDDL>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:41 2020: C<Module> L<DateTime::Format::Strptime|DateTime::Format::Strptime>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.77>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:43 2020: C<Module> L<DateTime::Format::Builder|DateTime::Format::Builder>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.83>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Aug 27 01:43:43 2020: C<Module> L<DateTime::Format::SQLite|DateTime::Format::SQLite>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
