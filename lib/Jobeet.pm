@@ -2,6 +2,7 @@ package Jobeet;
 use Ark;
 
 use_model 'Jobeet::Models';
+use Data::Page::Navigation;
 our $VERSION = '0.01';
 
 __PACKAGE__->meta->make_immutable;

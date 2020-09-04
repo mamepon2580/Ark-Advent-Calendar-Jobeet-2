@@ -28,6 +28,11 @@ __PACKAGE__->add_columns(
         size        => 255,
         is_nullable => 1,
     },
+    slug => {
+      data_type   => 'VARCHAR',
+      size        => 255,
+      is_nullable => 1,
+    },
 );
 
 __PACKAGE__->set_primary_key('id');
@@ -54,6 +59,7 @@ sub get_active_jobs {
         { expires_at => { '>=', models('Schema')->now->strftime("%F %T") } },
         {   order_by => { -desc => 'created_at' },
             defined $attr->{rows} ? (rows => $attr->{rows}) : (),
+            defined $attr->{page} ? (page => $attr->{page}) : (),
         }
     );
 }

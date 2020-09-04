@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.34
-Line-Count:   1344
-Last-Updated: Wed Aug 26 21:43:19 2020
+Line-Count:   1397
+Last-Updated: Fri Sep  4 04:32:27 2020
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Apache::LogFormat::Compiler        0.36  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz
@@ -53,6 +53,8 @@ bareword::filehandles             0.007  I/IL/ILMARI/bareword-filehandles-0.007.
 Bundle::DBI                    12.008696  T/TI/TIMB/DBI-1.643.tar.gz
 Carp::Clan                         6.08  E/ET/ETHER/Carp-Clan-6.08.tar.gz
 Class::Accessor                    0.51  K/KA/KASEI/Class-Accessor-0.51.tar.gz
+Class::Accessor::Chained           0.01  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
+Class::Accessor::Chained::Fast    undef  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
 Class::Accessor::Fast              0.51  K/KA/KASEI/Class-Accessor-0.51.tar.gz
 Class::Accessor::Faster            0.51  K/KA/KASEI/Class-Accessor-0.51.tar.gz
 Class::Accessor::Grouped        0.10014  H/HA/HAARG/Class-Accessor-Grouped-0.10014.tar.gz
@@ -94,6 +96,8 @@ Cpanel::JSON::XS::Type            undef  R/RU/RURBAN/Cpanel-JSON-XS-4.19.tar.gz
 Data::Dumper::Concise             2.023  E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Data::Dumper::Concise::Sugar      2.023  E/ET/ETHER/Data-Dumper-Concise-2.023.tar.gz
 Data::OptList                     0.110  R/RJ/RJBS/Data-OptList-0.110.tar.gz
+Data::Page                         2.03  E/ET/ETHER/Data-Page-2.03.tar.gz
+Data::Page::Navigation             0.07  K/KA/KAZEBURO/Data-Page-Navigation-0.07.tar.gz
 Data::Section::Simple              0.07  M/MI/MIYAGAWA/Data-Section-Simple-0.07.tar.gz
 Data::Util                         0.66  S/SY/SYOHEX/Data-Util-0.66.tar.gz
 Data::Util::Error                 undef  S/SY/SYOHEX/Data-Util-0.66.tar.gz
@@ -139,6 +143,16 @@ Date::Language::Turkish             1.0  A/AT/ATOOMIC/TimeDate-2.33.tar.gz
 Date::Parse                        2.33  A/AT/ATOOMIC/TimeDate-2.33.tar.gz
 DateTime                           1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Duration                 1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
+DateTime::Format::Builder          0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::Builder::Parser  0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::Builder::Parser::Dispatch 0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::Builder::Parser::generic 0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::Builder::Parser::Quick 0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::Builder::Parser::Regex 0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::Builder::Parser::Strptime 0.83  D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz
+DateTime::Format::SQLite           0.11  C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
+DateTime::Format::Strptime         1.77  D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
+DateTime::Format::Strptime::Types  1.77  D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
 DateTime::Helpers                  1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Infinite                 1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Infinite::Future         1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
@@ -726,6 +740,8 @@ Devel::PPPort                      3.59  A/AT/ATOOMIC/Devel-PPPort-3.59.tar.gz
 Devel::StackTrace                  2.04  D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz
 Devel::StackTrace::AsHTML          0.15  M/MI/MIYAGAWA/Devel-StackTrace-AsHTML-0.15.tar.gz
 Devel::StackTrace::Frame           2.04  D/DR/DROLSKY/Devel-StackTrace-2.04.tar.gz
+Devel::Symdump                     2.18  A/AN/ANDK/Devel-Symdump-2.18.tar.gz
+Devel::Symdump::Export            undef  A/AN/ANDK/Devel-Symdump-2.18.tar.gz
 Digest::SHA1                       2.13  G/GA/GAAS/Digest-SHA1-2.13.tar.gz
 Dist::CheckConflicts               0.11  D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
 Email::Valid                      1.202  R/RJ/RJBS/Email-Valid-1.202.tar.gz
@@ -795,6 +811,11 @@ FormValidator::Lite::Upload       undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.
 FormValidator::Lite::Upload::CGI  undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.tar.gz
 FormValidator::Lite::Upload::HTTPEngine undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.tar.gz
 FormValidator::Lite::Upload::PlackRequest undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.tar.gz
+Git::Repository                   1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
+Git::Repository::Command          1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
+Git::Repository::Plugin           1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
+Git::Version::Compare             1.004  B/BO/BOOK/Git-Version-Compare-1.004.tar.gz
+GitDDL                             0.03  T/TY/TYPESTER/GitDDL-0.03.tar.gz
 Hash::Merge                       0.302  H/HE/HERMES/Hash-Merge-0.302.tar.gz
 Hash::MultiValue                   0.16  A/AR/ARISTOTLE/Hash-MultiValue-0.16.tar.gz
 Hash::Util::FieldHash::Compat      0.11  E/ET/ETHER/Hash-Util-FieldHash-Compat-0.11.tar.gz
@@ -850,6 +871,13 @@ HTTP::Status                       6.25  E/ET/ETHER/HTTP-Message-6.25.tar.gz
 Import::Into                   1.002005  H/HA/HAARG/Import-Into-1.002005.tar.gz
 indirect                           0.39  V/VP/VPIT/indirect-0.39.tar.gz
 IO::HTML                          1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
+IPC::Run                       20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Debug                20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::IO                   20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Timer                20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Win32Helper          20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Win32IO              20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Win32Pump            20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
 JSON                               4.02  I/IS/ISHIGAKI/JSON-4.02.tar.gz
 JSON::Backend::PP                  4.02  I/IS/ISHIGAKI/JSON-4.02.tar.gz
 JSON::MaybeXS                  1.004002  E/ET/ETHER/JSON-MaybeXS-1.004002.tar.gz
@@ -888,6 +916,9 @@ Method::Generate::Accessor        undef  H/HA/HAARG/Moo-2.004000.tar.gz
 Method::Generate::BuildAll        undef  H/HA/HAARG/Moo-2.004000.tar.gz
 Method::Generate::Constructor     undef  H/HA/HAARG/Moo-2.004000.tar.gz
 Method::Generate::DemolishAll     undef  H/HA/HAARG/Moo-2.004000.tar.gz
+Mixin::Linewise                   0.108  R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
+Mixin::Linewise::Readers          0.108  R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
+Mixin::Linewise::Writers          0.108  R/RJ/RJBS/Mixin-Linewise-0.108.tar.gz
 Module::Build                    0.4231  L/LE/LEONT/Module-Build-0.4231.tar.gz
 Module::Build::Base              0.4231  L/LE/LEONT/Module-Build-0.4231.tar.gz
 Module::Build::Compat            0.4231  L/LE/LEONT/Module-Build-0.4231.tar.gz
@@ -968,6 +999,10 @@ Package::Stash::PP                 0.38  E/ET/ETHER/Package-Stash-0.38.tar.gz
 Package::Stash::XS                 0.29  E/ET/ETHER/Package-Stash-XS-0.29.tar.gz
 Package::Variant               1.003002  M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Params::Util                       1.07  A/AD/ADAMK/Params-Util-1.07.tar.gz
+Params::Validate                   1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::Constants        1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::PP               1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::XS               1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
 Params::ValidationCompiler         0.30  D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz
 Params::ValidationCompiler::Compiler 0.30  D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz
 Params::ValidationCompiler::Exceptions 0.30  D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz
@@ -1003,6 +1038,7 @@ Path::Class                        0.37  K/KW/KWILLIAMS/Path-Class-0.37.tar.gz
 Path::Class::Dir                   0.37  K/KW/KWILLIAMS/Path-Class-0.37.tar.gz
 Path::Class::Entity                0.37  K/KW/KWILLIAMS/Path-Class-0.37.tar.gz
 Path::Class::File                  0.37  K/KW/KWILLIAMS/Path-Class-0.37.tar.gz
+PerlIO::utf8_strict               0.007  L/LE/LEONT/PerlIO-utf8_strict-0.007.tar.gz
 Plack                            1.0047  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Plack::App::Cascade               undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Plack::App::CGIBin                undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
@@ -1076,6 +1112,14 @@ Plack::Util                       undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Plack::Util::Accessor             undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Plack::Util::IOWithPath           undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Plack::Util::Prototype            undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
+Pod::Coverage                      0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::CountParents       undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::ExportOnly         undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::Extractor           0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::Overloader         undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::TrustPod        0.100005  R/RJ/RJBS/Pod-Coverage-TrustPod-0.100005.tar.gz
+Pod::Eventual                  0.094001  R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
+Pod::Eventual::Simple          0.094001  R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
 POSIX::strftime::Compiler          0.44  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.44.tar.gz
 Role::Tiny                     2.001004  H/HA/HAARG/Role-Tiny-2.001004.tar.gz
 Role::Tiny::With               2.001004  H/HA/HAARG/Role-Tiny-2.001004.tar.gz
@@ -1216,13 +1260,19 @@ strictures                     2.000006  H/HA/HAARG/strictures-2.000006.tar.gz
 strictures::extra                 undef  H/HA/HAARG/strictures-2.000006.tar.gz
 String::CamelCase                  0.04  H/HI/HIO/String-CamelCase-0.04.tar.gz
 Sub::Defer                     2.006006  H/HA/HAARG/Sub-Quote-2.006006.tar.gz
+Sub::Exporter                     0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
 Sub::Exporter::Progressive     0.001013  F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz
+Sub::Exporter::Util               0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
 Sub::Identify                      0.14  R/RG/RGARCIA/Sub-Identify-0.14.tar.gz
 Sub::Install                      0.928  R/RJ/RJBS/Sub-Install-0.928.tar.gz
 Sub::Name                          0.26  E/ET/ETHER/Sub-Name-0.26.tar.gz
 Sub::Quote                     2.006006  H/HA/HAARG/Sub-Quote-2.006006.tar.gz
 Sub::Uplevel                     0.2800  D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
 Sub::Util                          1.55  P/PE/PEVANS/Scalar-List-Utils-1.55.tar.gz
+System::Command                   1.121  B/BO/BOOK/System-Command-1.121.tar.gz
+System::Command::Reaper           1.121  B/BO/BOOK/System-Command-1.121.tar.gz
+Test::CPAN::Meta                   0.25  B/BA/BARBIE/Test-CPAN-Meta-0.25.tar.gz
+Test::CPAN::Meta::Version          0.25  B/BA/BARBIE/Test-CPAN-Meta-0.25.tar.gz
 Test::Deep                        1.130  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::All                   undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::Any                   undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
@@ -1276,8 +1326,11 @@ Test::Deep::SuperHashKeys         undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::SuperHashKeysOnly     undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Exception                    0.43  E/EX/EXODIST/Test-Exception-0.43.tar.gz
 Test::Fatal                       0.016  R/RJ/RJBS/Test-Fatal-0.016.tar.gz
+Test::Git                         1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
 Test::Module::Build::Pluggable    undef  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
 Test::Mouse                       undef  S/SK/SKAJI/Mouse-v2.5.10.tar.gz
+Test::Pod                          1.52  E/ET/ETHER/Test-Pod-1.52.tar.gz
+Test::Pod::Coverage                1.10  N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
 Test::Requires                     0.11  T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz
 Test::SharedFork                   0.35  E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
 Test::SharedFork::Array           undef  E/EX/EXODIST/Test-SharedFork-0.35.tar.gz

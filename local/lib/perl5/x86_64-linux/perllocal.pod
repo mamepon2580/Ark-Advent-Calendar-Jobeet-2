@@ -2924,3 +2924,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Tue Sep  1 21:30:11 2020: C<Module> L<Data::Page|Data::Page>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

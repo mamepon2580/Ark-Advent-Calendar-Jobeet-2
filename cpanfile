@@ -11,3 +11,5 @@ requires 'SQL::Translator';
 requires 'GitDDL';
 requires 'Path::Class';
 requires 'DateTime::Format::SQLite';
+requires 'String::CamelCase';
+requires 'Data::Page::Navigation';
