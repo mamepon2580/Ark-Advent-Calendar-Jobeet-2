@@ -105,20 +105,6 @@ sub insert {
     $self->next::method(@_);
 }
 
-sub get_active_jobs {
-    my $self = shift;
-    my $attr = shift || {};
-
-    $attr->{rows} ||= 10;
-
-    $self->jobs(
-        { expires_at => { '>=', models('Schema')->now->strftime("%F %T") } },
-        {   order_by => { -desc => 'created_at' },
-            rows     => $attr->{rows},
-        }
-    );
-}
-
 __PACKAGE__->set_primary_key('id');
 __PACKAGE__->add_unique_constraint(['token']);
 

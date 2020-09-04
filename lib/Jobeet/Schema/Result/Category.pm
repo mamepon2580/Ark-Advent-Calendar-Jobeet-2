@@ -23,11 +23,6 @@ __PACKAGE__->add_columns(
         size        => 255,
         is_nullable => 0,
     },
-        slug => {
-        data_type   => 'VARCHAR',
-        size        => 255,
-        is_nullable => 1,
-    },
     slug => {
       data_type   => 'VARCHAR',
       size        => 255,
