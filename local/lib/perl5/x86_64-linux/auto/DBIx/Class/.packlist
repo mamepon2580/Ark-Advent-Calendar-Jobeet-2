@@ -411,13 +411,14 @@
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLAHacks/OracleJoins.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLAHacks/SQLite.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker.pm
+/home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker.pod
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/ACCESS.pm
-/home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/ClassicExtensions.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/LimitDialects.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/MSSQL.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/MySQL.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/Oracle.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/OracleJoins.pm
+/home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/OracleJoins.pod
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/SQLMaker/SQLite.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Schema.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Schema/Versioned.pm
@@ -475,7 +476,6 @@
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Storage/DBI/UniqueIdentifier.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Storage/DBI/mysql.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Storage/DBIHacks.pm
-/home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Storage/Debug/PrettyTrace.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Storage/Statistics.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/Storage/TxnScopeGuard.pm
 /home/akipaka/Work/Jobeet/local/lib/perl5/DBIx/Class/UTF8Columns.pm

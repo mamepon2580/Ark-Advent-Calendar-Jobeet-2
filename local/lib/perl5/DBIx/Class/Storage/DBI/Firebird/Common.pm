@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use base qw/DBIx::Class::Storage::DBI/;
 use mro 'c3';
+use List::Util 'first';
+use namespace::clean;
 
 =head1 NAME
 
@@ -78,7 +80,7 @@ EOF
       $generator = uc $generator unless $quoted;
 
       return $generator
-        if grep {
+        if first {
           $self->sql_maker->quote_char ? ($_ eq $col) : (uc($_) eq uc($col))
         } @trig_cols;
     }

@@ -10,6 +10,7 @@ use base qw/
 use mro 'c3';
 
 use Try::Tiny;
+use List::Util 'first';
 use namespace::clean;
 
 __PACKAGE__->mk_group_accessors(simple => qw/

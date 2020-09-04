@@ -8,6 +8,7 @@ use DBIx::Class::Carp;
 use Scope::Guard ();
 use Context::Preserve 'preserve_context';
 use Try::Tiny;
+use List::Util 'first';
 use namespace::clean;
 
 __PACKAGE__->sql_limit_dialect ('RowNum');
@@ -284,7 +285,7 @@ sub _dbh_execute {
   my ($self, $sql, $bind) = @_[0,2,3];
 
   # Turn off sth caching for multi-part LOBs. See _prep_for_execute below
-  local $self->{disable_sth_caching} = 1 if grep {
+  local $self->{disable_sth_caching} = 1 if first {
     ($_->[0]{_ora_lob_autosplit_part}||0)
       >
     (__cache_queries_with_max_lob_parts - 1)
@@ -650,7 +651,7 @@ sub relname_to_table_alias {
 
   my $alias = $self->next::method(@_);
 
-  # we need to shorten here in addition to the shortening in SQLMaker itself,
+  # we need to shorten here in addition to the shortening in SQLA itself,
   # since the final relnames are crucial for the join optimizer
   return $self->sql_maker->_shorten_identifier($alias);
 }

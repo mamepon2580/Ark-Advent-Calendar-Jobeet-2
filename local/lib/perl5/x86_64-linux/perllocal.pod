@@ -2946,3 +2946,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri Sep  4 16:10:51 2020: C<Module> L<DBIx::Class|DBIx::Class>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.082841>
+
+=item *
+
+C<EXE_FILES: script/dbicadmin>
+
+=back
+

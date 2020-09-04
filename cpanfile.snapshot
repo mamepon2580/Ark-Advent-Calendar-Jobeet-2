@@ -454,10 +454,10 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.48
       Test::Simple 0.90
       perl 5.008001
-  DBIx-Class-0.082842
-    pathname: R/RI/RIBASUSHI/DBIx-Class-0.082842.tar.gz
+  DBIx-Class-0.082841
+    pathname: R/RI/RIBASUSHI/DBIx-Class-0.082841.tar.gz
     provides:
-      DBIx::Class 0.082842
+      DBIx::Class 0.082841
       DBIx::Class::AccessorGroup undef
       DBIx::Class::Admin undef
       DBIx::Class::CDBICompat undef
@@ -477,7 +477,6 @@ DISTRIBUTIONS
       DBIx::Class::Relationship::Base undef
       DBIx::Class::ResultClass::HashRefInflator undef
       DBIx::Class::ResultSet undef
-      DBIx::Class::ResultSet::Pager undef
       DBIx::Class::ResultSetColumn undef
       DBIx::Class::ResultSetManager undef
       DBIx::Class::ResultSource undef
@@ -487,7 +486,6 @@ DISTRIBUTIONS
       DBIx::Class::ResultSourceProxy::Table undef
       DBIx::Class::Row undef
       DBIx::Class::SQLMaker undef
-      DBIx::Class::SQLMaker::ClassicExtensions undef
       DBIx::Class::SQLMaker::LimitDialects undef
       DBIx::Class::SQLMaker::OracleJoins undef
       DBIx::Class::Schema undef
@@ -541,7 +539,6 @@ DISTRIBUTIONS
       DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server::NoBindVars undef
       DBIx::Class::Storage::DBI::UniqueIdentifier undef
       DBIx::Class::Storage::DBI::mysql undef
-      DBIx::Class::Storage::Debug::PrettyTrace undef
       DBIx::Class::Storage::Statistics undef
       DBIx::Class::Storage::TxnScopeGuard undef
       DBIx::Class::UTF8Columns undef
@@ -556,16 +553,18 @@ DISTRIBUTIONS
       DBD::SQLite 1.29
       DBI 1.57
       Data::Dumper::Concise 2.020
+      Data::Page 2.00
       Devel::GlobalDestruction 0.09
       ExtUtils::MakeMaker 6.59
       File::Temp 0.22
       Hash::Merge 0.12
+      List::Util 1.16
       MRO::Compat 0.12
       Module::Find 0.07
       Moo 2.000
       Package::Stash 0.28
       Path::Class 0.18
-      SQL::Abstract::Classic 1.91
+      SQL::Abstract 1.81
       Scope::Guard 0.03
       Sub::Name 0.04
       Test::Deep 0.101

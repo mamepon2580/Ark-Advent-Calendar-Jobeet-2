@@ -8,6 +8,7 @@ use base qw/
   DBIx::Class::Storage::DBI::Sybase::ASE
 /;
 use mro 'c3';
+use List::Util 'first';
 use Scalar::Util 'looks_like_number';
 use namespace::clean;
 
@@ -41,7 +42,7 @@ sub interpolate_unquoted {
 
   return $self->next::method(@_) if not defined $value or not defined $type;
 
-  if (my ($key) = grep { $type =~ /$_/i } keys %noquote) {
+  if (my $key = first { $type =~ /$_/i } keys %noquote) {
     return 1 if $noquote{$key}->($value);
   }
   elsif ($self->is_datatype_numeric($type) && $number->($value)) {
