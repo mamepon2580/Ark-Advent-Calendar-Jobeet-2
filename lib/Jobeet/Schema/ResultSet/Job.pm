@@ -34,4 +34,14 @@ sub get_active_jobs {
     $self;
 }
 
+# Jobeet::Schema::ResultSet::Job
+sub latest_post {
+    my ($self) = @_;
+
+    my $r = $self->search( { is_activated => 1, },
+        { order_by => { -desc => 'created_at' } } );
+
+    $r->first;
+}
+
 1;

@@ -107,7 +107,7 @@ __PACKAGE__->belongs_to( category => 'Jobeet::Schema::Result::Category', 'catego
 
 sub insert {
     my $self = shift;
-    
+
     $self->token( sha1_hex(Data::UUID->new->create) );
     $self->expires_at( models('Schema')->now->add( days => models('conf')->{active_days} ) );
     $self->next::method(@_);
@@ -132,6 +132,16 @@ sub expires_soon {
 sub publish {
     my ($self) = @_;
     $self->update({ is_activated => 1 });
+}
+
+# Jobeet::Schema::ResultSet::Job
+sub latest_post {
+    my ($self) = @_;
+
+    my $r = $self->search( { is_activated => 1, },
+        { order_by => { -desc => 'created_at' } } );
+
+    $r->first;
 }
 
 1;

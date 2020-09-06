@@ -13,3 +13,4 @@ requires 'DateTime::Format::SQLite';
 requires 'String::CamelCase';
 requires 'Data::Page::Navigation';
 requires 'Cache::FastMmap';
+requires 'DateTime::Format::W3CDTF';

@@ -4,6 +4,8 @@
     <title><? block title => sub { 'Jobeet - Your best job board' } ?></title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="alternate" type="application/atom+xml" title="Latest Jobs" href="<?= $c->uri_for('/job/atom') ?>" />
+    <link rel="alternate" type="application/atom+xml" title="Latest Jobs"
+      href="<?= $c->uri_for('/job/atom') ?>" />
     <? block javascripts => '' ?>
     <? block stylesheets => '' ?>
   </head>
