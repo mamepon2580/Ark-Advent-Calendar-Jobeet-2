@@ -33,7 +33,6 @@
                 <input type="text" name="q"
                   id="search_keywords" />
                 <input type="submit" value="search" />
-                <img id="loader" src="<?= $c->uri_for('/images/loader.gif') ?>" style="vertical-align: middle; display: none" />
                 <div class="help">
                   Enter some keywords (city, country, position, ...)
                 </div>
