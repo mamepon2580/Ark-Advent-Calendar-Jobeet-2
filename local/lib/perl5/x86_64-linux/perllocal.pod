@@ -2968,3 +2968,25 @@ C<EXE_FILES: script/dbicadmin>
 
 =back
 
+=head2 Sun Sep  6 08:27:03 2020: C<Module> L<Cache::FastMmap|Cache::FastMmap>
+
+=over 4
+
+=item *
+
+C<installed into: /home/akipaka/Work/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.49>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

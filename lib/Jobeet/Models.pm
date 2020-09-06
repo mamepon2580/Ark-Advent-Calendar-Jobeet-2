@@ -29,4 +29,14 @@ autoloader qr/^Schema::/ => sub {
     }
 };
 
+register cache => sub {
+    my $self = shift;
+
+    my $conf = $self->get('conf')->{cache}
+        or die 'require cache config';
+
+    $self->ensure_class_loaded('Cache::FastMmap');
+    Cache::FastMmap->new(%$conf);
+};
+
 1;
