@@ -3,6 +3,8 @@ use v5.20.3;
 use strict;
 use warnings;
 use parent 'Jobeet::Schema::ResultBase';
+use Digest::SHA1 qw/sha1_hex/;
+use Data::UUID;
 
 __PACKAGE__->table('jobeet_affiliate');
 
@@ -47,5 +49,15 @@ __PACKAGE__->add_unique_constraint(['email']);
 
 __PACKAGE__->has_many(category_affiliate => 'Jobeet::Schema::Result::CategoryAffiliate', 'affiliate_id' );
 __PACKAGE__->many_to_many( categories => category_affiliate => 'category' );
+
+# Jobeet/Schema/Result/Affiliate.pm
+sub insert {
+    my $self = shift;
+
+    $self->token(sha1_hex(Data::UUID->new->create))
+        unless $self->token;
+
+    $self->next::method(@_);
+}
 
 1;

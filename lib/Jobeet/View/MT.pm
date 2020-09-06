@@ -9,3 +9,5 @@ has '+macro' => default => sub {
         sha1_hex => \&Digest::SHA1::sha1_hex,
     },
 };
+
+1;

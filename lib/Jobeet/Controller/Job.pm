@@ -25,3 +25,5 @@ sub atom :Local {
 
     $c->forward('index');
 }
+
+1;
